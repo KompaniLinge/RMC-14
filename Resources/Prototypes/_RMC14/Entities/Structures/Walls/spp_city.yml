@@ -1,0 +1,15 @@
+- type: entity
+  parent: CMWallReinforced
+  id: RMCWallSPPCivGreenReinforced
+  name: reinforced walls
+  description: A thick and chunky military-green metal wall. The surface looks prefabricated.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Walls/sppcivgreen.rsi
+    state: sppwall_interior
+  - type: Icon
+    sprite: _RMC14/Structures/Walls/sppcivgreen.rsi
+    state: sppwall_interior
+  - type: IconSmooth
+    key: walls
+    base: sppwall_interior
