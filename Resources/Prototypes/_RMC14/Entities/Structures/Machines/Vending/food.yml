@@ -208,3 +208,84 @@
       - id: RMCDrinkAlcoholVodkaChessBlackQueen
         name: Queen
         amount: 2
+
+- type: entity
+  parent: ColMarTechBaseAnchorable
+  id: Jishannoodle
+  name: noodle
+  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Structures/Machines/VendingMachines/noodlecooker.rsi
+    layers:
+    - state: "off"
+    - state: "normal-unshaded"
+  - type: CMAutomatedVendor
+    hackable: false
+    scaling: false
+    randomUnstockAmount: 3 # between 1 and 3
+    randomEmptyChance: 0.25 # 25% chance
+    sections:
+    - name: Alcohol
+      entries:
+      - id: CMDrinkCanAle
+        name: ale
+        amount: 6
+      - id: CMDrinkCanBeerLite
+        name: beer
+        amount: 6
+      - id: RMCDrinkAlcoholGrenadine
+        amount: 5
+      - id: RMCDrinkAlcoholTequila
+        amount: 5
+      - id: RMCDrinkAlcoholRum
+        amount: 5
+      - id: RMCDrinkAlcoholCognac
+        amount: 5
+      - id: RMCDrinkAlcoholDavenport
+        amount: 5
+      - id: RMCDrinkAlcoholPurpleWine
+        amount: 5
+      - id: RMCDrinkAlcoholMelonLiquor
+        amount: 2
+      - id: RMCDrinkAlcoholVermouth
+        amount: 5
+      - id: RMCDrinkAlcoholGin
+        amount: 5
+      - id: RMCDrinkAlcoholAbsinthe
+        amount: 2
+      - id: RMCDrinkAlcoholBlueCuracao
+        amount: 2
+      - id: RMCDrinkAlcoholVodka
+        amount: 5
+      - id: RMCDrinkAlcoholKahlua
+        amount: 5
+      - id: RMCDrinkAlcoholWhiskey
+        amount: 5
+    - name: Craft Beers
+      entries: []
+    - name: Non-Alcohol
+      entries:
+      - id: CMDrinkCanFruitBeer
+        amount: 8
+      - id: DrinkJuiceLimeCarton
+        amount: 4
+      - id: DrinkCreamCarton
+        amount: 4
+      - id: DrinkJuiceOrangeCarton
+        amount: 4
+      - id: CMDrinkCanSoda
+        amount: 15
+      - id: DrinkJuiceTomatoCarton
+        amount: 4
+      - id: CMDrinkCanTonic
+        amount: 8
+    - name: Containers
+      entries:
+      - id: CMMetalFlask
+        name: metal flask (empty)
+        amount: 5
+      - id: DrinkGlass
+        amount: 30
+      - id: CMMarineFlask
+        amount: 5
