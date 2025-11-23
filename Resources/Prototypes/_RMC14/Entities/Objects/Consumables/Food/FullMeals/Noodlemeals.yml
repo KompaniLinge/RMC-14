@@ -1,0 +1,264 @@
+#Below are all noodle meals made for the Jishan (SPP) Noodle Vendor.
+
+- type: entity
+  abstract: true
+  parent: CMFoodBase
+  id: RMCJishannoodle
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Food/noodles.rsi
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 50
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 9
+  - type: Item
+    size: Small
+    sprite: _RMC14/Objects/Consumable/Food/noodles.rsi
+  - type: InjectableSolution
+    solution: food
+  - type: DrawableSolution
+    solution: food
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanBeefNoodleSoup
+  name: Beef Noodle Soup
+  description: The leading cause of obesity in the SPP's outer colonies, delicious.
+  components:
+  - type: Sprite
+    state: beefnoodlesoup
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - meaty
+    - pasta
+    - vegetables
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodleBowlEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanDandanNoodle
+  name: Dandan Noodles
+  description: Spicy, flavorful, and nutty.
+  components:
+  - type: Sprite
+    state: dandan
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - pasta
+    - spicy
+    - nutty
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodleBowlEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanCurryUdon
+  name: Curry Noodle
+  description: Leading cause of clothing stains this side of the galaxy.
+  components:
+  - type: Sprite
+    state: curryudon
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - pasta
+    - vegetables
+    - curry
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodleBowlEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanTonkotsu
+  name: Tonkotsu Ramen
+  description: A japanese classic, the quintessential ramen, depending on who you ask.
+  components:
+  - type: Sprite
+    state: tonkotsu
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - pasta
+    - vegetables
+    - meaty
+    - salty
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodleBowlEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanBeefPho
+  name: Beef Pho
+  description: A vietnamese classic, delicious, but watch out for broth stains.
+  components:
+  - type: Sprite
+    state: beefpho
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - pasta
+    - vegetables
+    - meaty
+    - watery
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodleBowlEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanBiangBiang
+  name: Biang Biang Noodles
+  description: Renowned for having the most complex character in the chinese language, it also tastes good.
+  components:
+  - type: Sprite
+    state: biangbiangmian
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - pasta
+    - nutty
+    - meaty
+    - spicy
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodlePlateEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanPadThai
+  name: Pad Thai
+  description: One of two meals everyone always takes at a thai resturant, next to satay.
+  components:
+  - type: Sprite
+    state: padthai
+  - type: FlavorProfile
+    flavors:
+    - meaty
+    - pasta
+    - nutty
+    - meaty
+    - fishy
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodlePlateEmpty
+
+- type: entity
+  parent: RMCJishannoodle
+  id: RMCFoodJishanCharSiu
+  name: Charsiu Noodles
+  description: Stir fried noodles served with glazed charsiu pork.
+  components:
+  - type: Sprite
+    state: charsiuwithfriednoodles
+  - type: FlavorProfile
+    flavors:
+    - savory
+    - pasta
+    - nutty
+    - meaty
+    - spicy
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 30
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 14
+  - type: Food
+    trash:
+    - RMCNoodlePlateEmpty
+
+#Emptybowl/Emptyplates
+
+- type: entity
+  parent: BaseItem
+  id: RMCNoodleBowlEmpty
+  name: empty bowl
+  description: You could go for seconds.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Food/noodles.rsi
+    state: noodlebowlempty
+  - type: Item
+    sprite: _RMC14/Objects/Consumable/Food/noodles.rsi
+    size: Small
+  - type: Tag
+    tags:
+    - Trash
+  - type: SpaceGarbage
+
+- type: entity
+  parent: BaseItem
+  id: RMCNoodlePlateEmpty
+  name: empty plate
+  description: You could go for seconds.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Consumable/Food/noodles.rsi
+    state: noodlebowlempty
+  - type: Item
+    sprite: _RMC14/Objects/Consumable/Food/noodles.rsi
+    size: Small
+  - type: Tag
+    tags:
+    - Trash
+  - type: SpaceGarbage

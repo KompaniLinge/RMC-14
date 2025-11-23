@@ -212,8 +212,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: Jishannoodle
-  name: noodle
-  description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
+  name: SPP Noodle Cooker
+  description: Designed and built in Jishan, this is a favorite of all noodle-resturants in the galaxy, embargos or not.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/noodlecooker.rsi
