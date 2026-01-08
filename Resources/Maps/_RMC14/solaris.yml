@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 10/20/2025 02:01:47
-  entityCount: 29819
+  time: 12/31/2025 09:58:08
+  entityCount: 29820
 maps:
 - 1
 grids:
@@ -53374,7 +53374,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -40716.61
+      secondsUntilStateChange: -40840.188
       state: Opening
   - uid: 133
     components:
@@ -53870,7 +53870,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -42796.043
+      secondsUntilStateChange: -42919.62
       state: Opening
   - uid: 200
     components:
@@ -53882,7 +53882,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -42797.074
+      secondsUntilStateChange: -42920.652
       state: Opening
   - uid: 201
     components:
@@ -53915,7 +53915,7 @@ entities:
       pos: 127.5,-79.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -45239.71
+      secondsUntilStateChange: -45363.29
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -53987,7 +53987,7 @@ entities:
       pos: 77.5,-75.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -41801.074
+      secondsUntilStateChange: -41924.652
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54008,7 +54008,7 @@ entities:
       pos: 80.5,-75.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -41800.777
+      secondsUntilStateChange: -41924.355
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54113,7 +54113,7 @@ entities:
       pos: 63.5,-64.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -42096.742
+      secondsUntilStateChange: -42220.32
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54510,7 +54510,7 @@ entities:
       pos: 68.5,-33.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -43279.207
+      secondsUntilStateChange: -43402.785
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59872,7 +59872,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 865.2991347
     - type: Door
-      secondsUntilStateChange: -43329.31
+      secondsUntilStateChange: -43452.887
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59887,7 +59887,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 865.2991347
     - type: Door
-      secondsUntilStateChange: -43329.31
+      secondsUntilStateChange: -43452.887
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60420,7 +60420,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2393.0309403
     - type: Door
-      secondsUntilStateChange: -41801.574
+      secondsUntilStateChange: -41925.152
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60436,7 +60436,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2393.0309403
     - type: Door
-      secondsUntilStateChange: -41801.574
+      secondsUntilStateChange: -41925.152
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60452,7 +60452,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2078.4979215
     - type: Door
-      secondsUntilStateChange: -42116.11
+      secondsUntilStateChange: -42239.688
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60468,7 +60468,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2078.4979215
     - type: Door
-      secondsUntilStateChange: -42116.11
+      secondsUntilStateChange: -42239.688
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -177678,7 +177678,7 @@ entities:
       pos: 126.5,-167.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -60889.742
+      secondsUntilStateChange: -61013.32
       state: Opening
   - uid: 24293
     components:
@@ -198258,6 +198258,13 @@ entities:
     components:
     - type: Transform
       pos: 14.5,-199.5
+      parent: 1
+- proto: RMCMapInsertSolarisCrashlandingEva
+  entities:
+  - uid: 29820
+    components:
+    - type: Transform
+      pos: 129.5,-68.5
       parent: 1
 - proto: RMCMapInsertSolarisCrashlandingOffices
   entities:
