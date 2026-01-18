@@ -165,3 +165,30 @@
   components:
   - type: Sprite
     state: nereidspaceport_sign
+
+- type: entity
+  parent: RMCBaseLandingSign
+  id: RMCHybrisaJishanLZ1Sign
+  name: Jishan City - Socialist Progressive Peoples - Landing Zone 1 sign
+  description: A large sign that reads 'Jishan Landing Zone 1'. You didn't know you could read Chinese.
+  components:
+  - type: Sprite
+    state: jishanlz1
+
+- type: entity
+  parent: RMCBaseLandingSign
+  id: RMCHybrisaJishanLZ2Sign
+  name: Jishan City - Socialist Progressive Peoples - Landing Zone 2 sign
+  description: A large sign that reads 'Jishan Landing Zone 2'. You didn't know you could read Chinese.
+  components:
+  - type: Sprite
+    state: jishanlz2
+
+- type: entity
+  parent: RMCBaseLandingSign
+  id: RMCHybrisaJishanCitySign
+  name: Jishan City - Socialist Progressive Peoples - Landing Zone 2 sign
+  description: A large sign that reads 'Jishan City'. You didn't know you could read Chinese.
+  components:
+  - type: Sprite
+    state: jishansign

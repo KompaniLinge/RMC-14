@@ -1,0 +1,51 @@
+- type: job
+  parent: CMSurvivor
+  id: CMSurvivorJishanAdministrator
+  name: rmc-job-name-survivor-jishan-admin
+  description: cm-job-description-survivor-jishan-admin
+  playTimeTracker: CMJobSurvivorJishanAdministrator
+  icon: ""
+  hasIcon: true
+  greeting: rmc-job-greeting-jishan-colonist
+  ranks:
+    RMCRankCivilian: []
+  startingGear: RMCGearSurvivorJishanAdminstrative
+  spawnMenuRoleName: Jishan Administrative Staff (Jishan Colonist)
+  joinNotifyCrew: false
+  accessGroups:
+  - ColonistCorporate
+  - Colonist
+  - ColonistEngi
+  special:
+  - !type:AddComponentSpecial
+    components:
+    - type: Skills
+      skills:
+        RMCSkillConstruction: 1
+        RMCSkillEndurance: 2
+        RMCSkillFireman: 1
+        RMCSkillFirearms: 1
+    - type: RMCSurvivor
+    - type: MotionDetectorTracked
+    - type: NpcFactionMember
+      factions:
+      - SPP
+      - Civilian
+    - type: IntelRescueSurvivorObjective
+    - type: RMCAllowSuitStorage
+
+- type: startingGear
+  id: RMCGearSurvivorJishanAdminstrative
+  equipment:
+    head:
+    ears: RMCHeadsetColonyIcons
+    eyes: RMCWeldingGoggles
+    jumpsuit:
+    outerClothing:
+    gloves:
+    shoes: RMCShoesJackboots
+    back:
+    id:
+    belt:
+    pocket1:
+    pocket2:

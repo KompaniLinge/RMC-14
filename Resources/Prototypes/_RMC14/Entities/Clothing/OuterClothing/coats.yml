@@ -900,3 +900,31 @@
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/ChancesClaim/yellow_raincoat.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/ChancesClaim/yellow_raincoat.rsi
+
+#Jishan
+- type: entity
+  parent: RMCBaseJacket
+  id: RMCJishanAdminCoat
+  name: Jishan Admin's Coat
+  description: A faded maroon coat designed for all possible paperwork-related activities, smells of party oversight.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Jishan/jishanadmincoat.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Jishan/jishanadmincoat.rsi
+
+- type: entity
+  parent: RMCBaseJacket
+  id: RMCJishanGovernorCoat
+  name: Jishan Governor's Coat
+  description: A plush and armored coat designed for the Governor of Jishan City, glory to the party!
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Jishan/jishangovernorcoat.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/OuterClothing/Coats/Jishan/jishangovernorcoat.rsi
+  - type: CMArmor
+    melee: 15
+    bullet: 20
+    bio: 20
+    explosionArmor: 20

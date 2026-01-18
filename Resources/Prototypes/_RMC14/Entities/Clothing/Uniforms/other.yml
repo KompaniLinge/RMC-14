@@ -592,3 +592,16 @@
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi
   - type: Clothing
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/frontier.rsi
+
+#Jishan
+- type: entity
+  parent: RMCMarineUniformBase
+  id: RMCJumpsuitJishanAdmin
+  name: Jishan Admin Workshirt
+  description: A tightly-tucked black office shirt, used by administrative staff of the SPP Colony of Jishan City. Smells of paper and Party oversight.
+  components:
+  - type: Sprite
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/jishanadmin.rsi
+  - type: Clothing
+    sprite: _RMC14/Objects/Clothing/Uniforms/SPP/jishanadmin.rsi
+
