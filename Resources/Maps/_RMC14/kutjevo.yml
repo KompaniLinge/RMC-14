@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/03/2026 20:49:49
-  entityCount: 26558
+  time: 01/23/2026 01:52:50
+  entityCount: 26568
 maps:
 - 1
 grids:
@@ -78524,7 +78524,7 @@ entities:
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 14.5,-46.5
+      pos: 16.5,-37.5
       parent: 1
   - uid: 6675
     components:
@@ -78690,6 +78690,66 @@ entities:
     components:
     - type: Transform
       pos: 16.5,-152.5
+      parent: 1
+  - uid: 26559
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 9.5,-32.5
+      parent: 1
+  - uid: 26560
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 9.5,-26.5
+      parent: 1
+  - uid: 26561
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 14.5,-16.5
+      parent: 1
+  - uid: 26562
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 24.5,-16.5
+      parent: 1
+  - uid: 26563
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 38.5,-17.5
+      parent: 1
+  - uid: 26564
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 41.5,-27.5
+      parent: 1
+  - uid: 26565
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 16.5,-29.5
+      parent: 1
+  - uid: 26566
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 4.5,-46.5
+      parent: 1
+  - uid: 26567
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 9.5,-50.5
+      parent: 1
+  - uid: 26568
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 10.5,-56.5
       parent: 1
 - proto: RMCVendorCigsElectro
   entities:
