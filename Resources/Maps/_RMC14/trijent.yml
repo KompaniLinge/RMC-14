@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/15/2026 13:13:14
+  time: 01/16/2026 06:09:55
   entityCount: 35624
 maps:
 - 1
@@ -151266,96 +151266,183 @@ entities:
       parent: 1
 - proto: RMCGeneratorFusionColony
   entities:
+  - uid: 14939
+    components:
+    - type: Transform
+      pos: 121.5,-72.5
+      parent: 1
+- proto: RMCGeneratorFusionColonyNoMapIcon
+  entities:
   - uid: 14924
     components:
     - type: Transform
-      pos: 129.5,-73.5
+      pos: 115.5,-74.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14925
     components:
     - type: Transform
-      pos: 129.5,-74.5
+      pos: 117.5,-74.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14926
     components:
     - type: Transform
-      pos: 129.5,-72.5
+      pos: 115.5,-73.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14927
     components:
     - type: Transform
-      pos: 127.5,-73.5
+      pos: 117.5,-72.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14928
     components:
     - type: Transform
-      pos: 127.5,-74.5
+      pos: 117.5,-73.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14929
     components:
     - type: Transform
       pos: 127.5,-72.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14930
     components:
     - type: Transform
-      pos: 123.5,-73.5
+      pos: 129.5,-73.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14931
     components:
     - type: Transform
-      pos: 123.5,-74.5
+      pos: 129.5,-74.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14932
-    components:
-    - type: Transform
-      pos: 123.5,-72.5
-      parent: 1
-  - uid: 14933
     components:
     - type: Transform
       pos: 121.5,-73.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 14933
+    components:
+    - type: Transform
+      pos: 127.5,-73.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14934
+    components:
+    - type: Transform
+      pos: 127.5,-74.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 14935
+    components:
+    - type: Transform
+      pos: 129.5,-72.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 14936
+    components:
+    - type: Transform
+      pos: 123.5,-73.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 14937
+    components:
+    - type: Transform
+      pos: 123.5,-74.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 14938
+    components:
+    - type: Transform
+      pos: 123.5,-72.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 14940
     components:
     - type: Transform
       pos: 121.5,-74.5
       parent: 1
-  - uid: 14935
-    components:
-    - type: Transform
-      pos: 121.5,-72.5
-      parent: 1
-  - uid: 14936
-    components:
-    - type: Transform
-      pos: 117.5,-73.5
-      parent: 1
-  - uid: 14937
-    components:
-    - type: Transform
-      pos: 117.5,-74.5
-      parent: 1
-  - uid: 14938
-    components:
-    - type: Transform
-      pos: 117.5,-72.5
-      parent: 1
-  - uid: 14939
-    components:
-    - type: Transform
-      pos: 115.5,-73.5
-      parent: 1
-  - uid: 14940
-    components:
-    - type: Transform
-      pos: 115.5,-74.5
-      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 14941
     components:
     - type: Transform
       pos: 115.5,-72.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
 - proto: RMCGlassesMedicalHUDGlasses
   entities:
   - uid: 14942

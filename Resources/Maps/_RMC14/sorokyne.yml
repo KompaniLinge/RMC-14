@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/23/2026 02:13:49
+  time: 01/23/2026 06:48:45
   entityCount: 34515
 maps:
 - 1
@@ -75340,7 +75340,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 7656.8256765
     - type: Door
-      secondsUntilStateChange: -10549.04
+      secondsUntilStateChange: -10712.882
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -75354,7 +75354,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 7656.8256765
     - type: Door
-      secondsUntilStateChange: -10549.04
+      secondsUntilStateChange: -10712.882
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -86687,55 +86687,20 @@ entities:
     - type: Transform
       pos: 133.5,89.5
       parent: 1
-  - uid: 5696
-    components:
-    - type: Transform
-      pos: 104.5,104.5
-      parent: 1
-  - uid: 5697
-    components:
-    - type: Transform
-      pos: 105.5,104.5
-      parent: 1
-  - uid: 5698
-    components:
-    - type: Transform
-      pos: 106.5,104.5
-      parent: 1
   - uid: 5699
     components:
     - type: Transform
-      pos: 108.5,104.5
-      parent: 1
-  - uid: 5700
-    components:
-    - type: Transform
-      pos: 109.5,104.5
+      pos: 65.5,27.5
       parent: 1
   - uid: 5701
     components:
     - type: Transform
-      pos: 110.5,104.5
-      parent: 1
-  - uid: 5702
-    components:
-    - type: Transform
-      pos: 78.5,66.5
+      pos: 105.5,104.5
       parent: 1
   - uid: 5703
     components:
     - type: Transform
       pos: 79.5,66.5
-      parent: 1
-  - uid: 5704
-    components:
-    - type: Transform
-      pos: 80.5,66.5
-      parent: 1
-  - uid: 5705
-    components:
-    - type: Transform
-      pos: 65.5,27.5
       parent: 1
   - uid: 5706
     components:
@@ -86747,6 +86712,78 @@ entities:
     - type: Transform
       pos: 44.5,118.5
       parent: 1
+- proto: RMCGeneratorFusionColonyNoMapIcon
+  entities:
+  - uid: 5696
+    components:
+    - type: Transform
+      pos: 78.5,66.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 5697
+    components:
+    - type: Transform
+      pos: 80.5,66.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 5698
+    components:
+    - type: Transform
+      pos: 104.5,104.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 5700
+    components:
+    - type: Transform
+      pos: 106.5,104.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 5702
+    components:
+    - type: Transform
+      pos: 108.5,104.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 5704
+    components:
+    - type: Transform
+      pos: 110.5,104.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 5705
+    components:
+    - type: Transform
+      pos: 109.5,104.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
 - proto: RMCGrassd2
   entities:
   - uid: 7537

@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 12/31/2025 16:51:54
+  time: 01/16/2026 04:44:25
   entityCount: 23424
 maps:
 - 1
@@ -44489,7 +44489,7 @@ entities:
   - uid: 367
     components:
     - type: Transform
-      pos: 15.5,-86.7
+      pos: 15.5,-86.5
       parent: 1
 - proto: CMDispenserSoda
   entities:
@@ -44766,7 +44766,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 3891.1294422
     - type: Door
-      secondsUntilStateChange: -22469.578
+      secondsUntilStateChange: -22498.062
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -44784,7 +44784,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 3891.1294422
     - type: Door
-      secondsUntilStateChange: -22469.578
+      secondsUntilStateChange: -22498.062
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -147027,41 +147027,78 @@ entities:
     - type: Transform
       pos: -1.5,-91.5
       parent: 1
-  - uid: 20857
-    components:
-    - type: Transform
-      pos: -2.5,-92.5
-      parent: 1
-  - uid: 20858
-    components:
-    - type: Transform
-      pos: -2.5,-93.5
-      parent: 1
-  - uid: 20859
-    components:
-    - type: Transform
-      pos: -2.5,-94.5
-      parent: 1
-  - uid: 20860
-    components:
-    - type: Transform
-      pos: 1.5,-91.5
-      parent: 1
-  - uid: 20861
-    components:
-    - type: Transform
-      pos: 2.5,-92.5
-      parent: 1
-  - uid: 20862
-    components:
-    - type: Transform
-      pos: 2.5,-93.5
-      parent: 1
-  - uid: 20863
+- proto: RMCGeneratorFusionColonyNoMapIcon
+  entities:
+  - uid: 20359
     components:
     - type: Transform
       pos: 2.5,-94.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 20360
+    components:
+    - type: Transform
+      pos: 2.5,-93.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 20361
+    components:
+    - type: Transform
+      pos: 2.5,-92.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 20362
+    components:
+    - type: Transform
+      pos: -2.5,-92.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 20363
+    components:
+    - type: Transform
+      pos: 1.5,-91.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 20364
+    components:
+    - type: Transform
+      pos: -2.5,-94.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 20365
+    components:
+    - type: Transform
+      pos: -2.5,-93.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
 - proto: RMCGlassesMarineRpg
   entities:
   - uid: 20864

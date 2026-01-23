@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/04/2026 17:43:47
+  time: 01/16/2026 04:49:06
   entityCount: 21716
 maps:
 - 1
@@ -89154,26 +89154,43 @@ entities:
       parent: 1
 - proto: RMCGeneratorFusionColony
   entities:
-  - uid: 6079
-    components:
-    - type: Transform
-      pos: 76.5,-45.5
-      parent: 1
-  - uid: 6080
-    components:
-    - type: Transform
-      pos: 77.5,-45.5
-      parent: 1
   - uid: 6081
     components:
     - type: Transform
       pos: 73.5,-42.5
       parent: 1
+- proto: RMCGeneratorFusionColonyNoMapIcon
+  entities:
+  - uid: 6079
+    components:
+    - type: Transform
+      pos: 76.5,-45.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 6080
+    components:
+    - type: Transform
+      pos: 77.5,-45.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 6082
     components:
     - type: Transform
       pos: 73.5,-41.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
 - proto: RMCGlassesMarineRpg
   entities:
   - uid: 6083

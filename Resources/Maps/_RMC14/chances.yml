@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 12/15/2025 07:43:08
+  time: 01/16/2026 04:41:34
   entityCount: 27127
 maps:
 - 1
@@ -42523,7 +42523,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -61558
+      secondsUntilStateChange: -61578.047
       state: Opening
 - proto: CMAirlockMedicalLocked
   entities:
@@ -53182,7 +53182,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 10666.0893339
     - type: Door
-      secondsUntilStateChange: -49136.652
+      secondsUntilStateChange: -49156.7
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -53198,7 +53198,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 10666.0893339
     - type: Door
-      secondsUntilStateChange: -49136.652
+      secondsUntilStateChange: -49156.7
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -91574,31 +91574,53 @@ entities:
       parent: 1
 - proto: RMCGeneratorFusionColony
   entities:
-  - uid: 9086
-    components:
-    - type: Transform
-      pos: -72.5,-33.5
-      parent: 1
-  - uid: 9087
-    components:
-    - type: Transform
-      pos: -72.5,-32.5
-      parent: 1
   - uid: 9088
     components:
     - type: Transform
       pos: -71.5,-31.5
       parent: 1
-  - uid: 9089
+- proto: RMCGeneratorFusionColonyNoMapIcon
+  entities:
+  - uid: 9086
     components:
     - type: Transform
-      pos: -70.5,-31.5
+      pos: -72.5,-32.5
       parent: 1
-  - uid: 9090
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 9087
+    components:
+    - type: Transform
+      pos: -72.5,-33.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 9089
     components:
     - type: Transform
       pos: -69.5,-31.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 9090
+    components:
+    - type: Transform
+      pos: -70.5,-31.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
 - proto: RMCGirderDisplaced
   entities:
   - uid: 9091

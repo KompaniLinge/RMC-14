@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/08/2026 03:12:16
+  time: 01/16/2026 05:38:52
   entityCount: 29825
 maps:
 - 1
@@ -231,7 +231,6 @@ tilemap:
   138: CMPlanetWood
   139: FloorElevatorShaft
   621: FloorLino
-  684: Plating
   118: RMCFloorCement1
   102: RMCFloorCement12
   100: RMCFloorCement14
@@ -53374,7 +53373,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -41085.75
+      secondsUntilStateChange: -41161.93
       state: Opening
   - uid: 133
     components:
@@ -53870,7 +53869,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -43165.184
+      secondsUntilStateChange: -43241.363
       state: Opening
   - uid: 200
     components:
@@ -53882,7 +53881,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -43166.215
+      secondsUntilStateChange: -43242.395
       state: Opening
   - uid: 201
     components:
@@ -53915,7 +53914,7 @@ entities:
       pos: 127.5,-79.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -45608.85
+      secondsUntilStateChange: -45685.03
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -53987,7 +53986,7 @@ entities:
       pos: 77.5,-75.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -42170.215
+      secondsUntilStateChange: -42246.395
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54008,7 +54007,7 @@ entities:
       pos: 80.5,-75.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -42169.918
+      secondsUntilStateChange: -42246.098
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54113,7 +54112,7 @@ entities:
       pos: 63.5,-64.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -42465.883
+      secondsUntilStateChange: -42542.062
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -54510,7 +54509,7 @@ entities:
       pos: 68.5,-33.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -43648.348
+      secondsUntilStateChange: -43724.527
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59872,7 +59871,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 865.2991347
     - type: Door
-      secondsUntilStateChange: -43698.45
+      secondsUntilStateChange: -43774.63
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -59887,7 +59886,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 865.2991347
     - type: Door
-      secondsUntilStateChange: -43698.45
+      secondsUntilStateChange: -43774.63
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60420,7 +60419,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2393.0309403
     - type: Door
-      secondsUntilStateChange: -42170.715
+      secondsUntilStateChange: -42246.895
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60436,7 +60435,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2393.0309403
     - type: Door
-      secondsUntilStateChange: -42170.715
+      secondsUntilStateChange: -42246.895
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60452,7 +60451,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2078.4979215
     - type: Door
-      secondsUntilStateChange: -42485.25
+      secondsUntilStateChange: -42561.43
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -60468,7 +60467,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 2078.4979215
     - type: Door
-      secondsUntilStateChange: -42485.25
+      secondsUntilStateChange: -42561.43
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -177678,7 +177677,7 @@ entities:
       pos: 126.5,-167.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -61258.883
+      secondsUntilStateChange: -61335.062
       state: Opening
   - uid: 24227
     components:
@@ -192552,61 +192551,103 @@ entities:
     - type: Transform
       pos: 101.5,-172.5
       parent: 1
-  - uid: 26795
-    components:
-    - type: Transform
-      pos: 102.5,-172.5
-      parent: 1
   - uid: 26796
     components:
     - type: Transform
       pos: 24.5,-95.5
-      parent: 1
-  - uid: 26797
-    components:
-    - type: Transform
-      pos: 24.5,-94.5
       parent: 1
   - uid: 26798
     components:
     - type: Transform
       pos: 166.5,-43.5
       parent: 1
-  - uid: 26799
-    components:
-    - type: Transform
-      pos: 167.5,-43.5
-      parent: 1
   - uid: 26800
     components:
     - type: Transform
       pos: 72.5,-139.5
       parent: 1
+- proto: RMCGeneratorFusionColonyNoMapIcon
+  entities:
+  - uid: 26795
+    components:
+    - type: Transform
+      pos: 102.5,-172.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 26797
+    components:
+    - type: Transform
+      pos: 24.5,-94.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 26799
+    components:
+    - type: Transform
+      pos: 167.5,-43.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
   - uid: 26801
-    components:
-    - type: Transform
-      pos: 72.5,-140.5
-      parent: 1
-  - uid: 26802
-    components:
-    - type: Transform
-      pos: 72.5,-141.5
-      parent: 1
-  - uid: 26803
     components:
     - type: Transform
       pos: 76.5,-139.5
       parent: 1
-  - uid: 26804
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 26802
     components:
     - type: Transform
       pos: 76.5,-140.5
       parent: 1
-  - uid: 26805
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 26803
+    components:
+    - type: Transform
+      pos: 72.5,-140.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 26804
     components:
     - type: Transform
       pos: 76.5,-141.5
       parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
+  - uid: 26805
+    components:
+    - type: Transform
+      pos: 72.5,-141.5
+      parent: 1
+    missingComponents:
+    - MarineMapTracked
+    - XenoMapTracked
+    - TacticalMapTracked
+    - TacticalMapIcon
 - proto: RMCGlowshroom
   entities:
   - uid: 26806
