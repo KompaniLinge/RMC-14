@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/04/2026 10:16:34
-  entityCount: 34499
+  time: 01/23/2026 02:13:49
+  entityCount: 34515
 maps:
 - 1
 grids:
@@ -90,7 +90,6 @@ tilemap:
   6: CMPlanetTatami
   105: CMPlanetWood
   123: CMPlanetWoodDamaged
-  119: Plating
   23: RMCFloorCement1
   19: RMCFloorCement12
   18: RMCFloorCement14
@@ -127649,7 +127648,7 @@ entities:
   - uid: 12531
     components:
     - type: Transform
-      pos: 10.5,122.5
+      pos: 10.5,129.5
       parent: 1
   - uid: 12532
     components:
@@ -127675,7 +127674,8 @@ entities:
   - uid: 12536
     components:
     - type: Transform
-      pos: 17.5,94.5
+      rot: -1.5707963267948966 rad
+      pos: 39.5,23.5
       parent: 1
   - uid: 12537
     components:
@@ -127697,13 +127697,12 @@ entities:
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
-      pos: 52.5,34.5
+      pos: 50.5,35.5
       parent: 1
   - uid: 12542
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 48.5,35.5
+      pos: 17.5,113.5
       parent: 1
   - uid: 12543
     components:
@@ -127756,8 +127755,8 @@ entities:
   - uid: 12551
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 30.5,26.5
+      rot: 1.5707963267948966 rad
+      pos: 44.5,37.5
       parent: 1
   - uid: 34059
     components:
@@ -127782,7 +127781,8 @@ entities:
   - uid: 34496
     components:
     - type: Transform
-      pos: 5.5,94.5
+      rot: -1.5707963267948966 rad
+      pos: 39.5,16.5
       parent: 1
   - uid: 34497
     components:
@@ -127800,6 +127800,94 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 40.5,32.5
+      parent: 1
+  - uid: 34500
+    components:
+    - type: Transform
+      pos: 15.5,95.5
+      parent: 1
+  - uid: 34501
+    components:
+    - type: Transform
+      pos: 5.5,95.5
+      parent: 1
+  - uid: 34502
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 53.5,25.5
+      parent: 1
+  - uid: 34503
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 53.5,15.5
+      parent: 1
+  - uid: 34504
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 51.5,6.5
+      parent: 1
+  - uid: 34505
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 41.5,6.5
+      parent: 1
+  - uid: 34506
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 42.5,30.5
+      parent: 1
+  - uid: 34507
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 50.5,30.5
+      parent: 1
+  - uid: 34508
+    components:
+    - type: Transform
+      pos: 17.5,108.5
+      parent: 1
+  - uid: 34509
+    components:
+    - type: Transform
+      pos: 17.5,101.5
+      parent: 1
+  - uid: 34510
+    components:
+    - type: Transform
+      pos: 10.5,95.5
+      parent: 1
+  - uid: 34511
+    components:
+    - type: Transform
+      pos: 14.5,120.5
+      parent: 1
+  - uid: 34512
+    components:
+    - type: Transform
+      pos: 10.5,120.5
+      parent: 1
+  - uid: 34513
+    components:
+    - type: Transform
+      pos: 6.5,120.5
+      parent: 1
+  - uid: 34514
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 46.5,30.5
+      parent: 1
+  - uid: 34515
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 46.5,5.5
       parent: 1
 - proto: RMCVendorCigsElectro
   entities:
