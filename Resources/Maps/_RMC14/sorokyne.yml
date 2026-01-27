@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 01/23/2026 06:48:45
-  entityCount: 34515
+  time: 01/25/2026 23:36:41
+  entityCount: 34514
 maps:
 - 1
 grids:
@@ -52981,13 +52981,6 @@ entities:
     - type: Transform
       pos: 71.5,80.5
       parent: 1
-- proto: CMPamphletPolice
-  entities:
-  - uid: 1445
-    components:
-    - type: Transform
-      pos: 127.69536,120.895645
-      parent: 1
 - proto: CMPaperBin10
   entities:
   - uid: 1446
@@ -75340,7 +75333,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 7656.8256765
     - type: Door
-      secondsUntilStateChange: -10712.882
+      secondsUntilStateChange: -10885.805
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -75354,7 +75347,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 7656.8256765
     - type: Door
-      secondsUntilStateChange: -10712.882
+      secondsUntilStateChange: -10885.805
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
