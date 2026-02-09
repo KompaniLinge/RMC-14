@@ -196361,7 +196361,7 @@ entities:
   - uid: 22106
     components:
     - type: MetaData
-      name: ZSPA - Ironbridge Precinct
+      name: TSEPA - Ironbridge Precinct
     - type: Transform
       pos: -79.5,-117.5
       parent: 1
