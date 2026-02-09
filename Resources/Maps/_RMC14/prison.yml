@@ -117444,7 +117444,7 @@ entities:
     components:
     - type: MetaData
       desc: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been disabled, and it will open fire on any targets within range.
-      name: modified UA-577 Gauss Turret
+      name: modified UN-577 Gauss Turret
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -118.5,-37.5
@@ -117453,7 +117453,7 @@ entities:
     components:
     - type: MetaData
       desc: A deployable, semi-automated turret with AI targeting capabilities. Armed with an M30 Autocannon and a high-capacity drum magazine. This one's IFF system has been disabled, and it will open fire on any targets within range.
-      name: modified UA-577 Gauss Turret
+      name: modified UN-577 Gauss Turret
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -113.5,-43.5
