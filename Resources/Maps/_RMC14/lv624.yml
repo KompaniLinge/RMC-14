@@ -4,8 +4,8 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 02/08/2026 01:03:45
-  entityCount: 23553
+  time: 02/10/2026 00:51:50
+  entityCount: 23552
 maps:
 - 1
 grids:
@@ -44765,7 +44765,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 3891.1294422
     - type: Door
-      secondsUntilStateChange: -22751.027
+      secondsUntilStateChange: -22773.023
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -44783,7 +44783,7 @@ entities:
     - type: CMDoubleDoor
       lastOpeningAt: 3891.1294422
     - type: Door
-      secondsUntilStateChange: -22751.027
+      secondsUntilStateChange: -22773.023
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -138994,12 +138994,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -45.5,-76.5
       parent: 1
-  - uid: 20377
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -44.5,-75.5
-      parent: 1
   - uid: 20378
     components:
     - type: Transform
@@ -145293,6 +145287,8 @@ entities:
     - type: Transform
       pos: 20.5,89.5
       parent: 1
+    - type: Campfire
+      fuel: 5
 - proto: RMCCandle
   entities:
   - uid: 19886

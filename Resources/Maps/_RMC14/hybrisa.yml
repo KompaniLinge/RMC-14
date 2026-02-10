@@ -4,7 +4,7 @@ meta:
   engineVersion: 264.0.2
   forkId: ""
   forkVersion: ""
-  time: 02/08/2026 00:47:13
+  time: 02/10/2026 00:52:59
   entityCount: 50721
 maps:
 - 1
@@ -105251,35 +105251,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -49.705044,-148.5052
       parent: 1
-- proto: CMPosterZSPA2
-  entities:
-  - uid: 50285
-    components:
-    - type: Transform
-      pos: -29.5,-63.5
-      parent: 1
-  - uid: 50406
-    components:
-    - type: Transform
-      pos: -58.5,-120.5
-      parent: 1
-  - uid: 50516
-    components:
-    - type: Transform
-      pos: -80.5,-120.5
-      parent: 1
-- proto: CMPosterZSPA3
-  entities:
-  - uid: 21427
-    components:
-    - type: Transform
-      pos: -81.5,-110.5
-      parent: 1
-  - uid: 50405
-    components:
-    - type: Transform
-      pos: -62.5,-120.5
-      parent: 1
 - proto: CMPottedPlant1
   entities:
   - uid: 6606
@@ -136396,7 +136367,7 @@ entities:
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -9.5,-147.5
+      pos: -9.5,-146.5
       parent: 1
   - uid: 50717
     components:
@@ -136774,7 +136745,7 @@ entities:
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: -10.5,-147.5
+      pos: -9.5,-147.5
       parent: 1
   - uid: 50701
     components:
@@ -137873,7 +137844,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -38513.4
+      secondsUntilStateChange: -38549.72
       state: Opening
   - uid: 12471
     components:
@@ -226284,6 +226255,35 @@ entities:
     components:
     - type: Transform
       pos: -150.36575,-51.30818
+      parent: 1
+- proto: RMCPosterTSEPA2
+  entities:
+  - uid: 50285
+    components:
+    - type: Transform
+      pos: -29.5,-63.5
+      parent: 1
+  - uid: 50406
+    components:
+    - type: Transform
+      pos: -58.5,-120.5
+      parent: 1
+  - uid: 50516
+    components:
+    - type: Transform
+      pos: -80.5,-120.5
+      parent: 1
+- proto: RMCPosterTSEPA3
+  entities:
+  - uid: 21427
+    components:
+    - type: Transform
+      pos: -81.5,-110.5
+      parent: 1
+  - uid: 50405
+    components:
+    - type: Transform
+      pos: -62.5,-120.5
       parent: 1
 - proto: RMCPosterWEYA2
   entities:
